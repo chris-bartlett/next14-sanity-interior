@@ -17,6 +17,7 @@ const config: Config = {
       gridTemplateColumns: {},
       fontFamily: {
         bebas: ["Bebas Neue", "sans-serif"],
+        bebasNeue: ["Bebas Neue", "sans-serif"],
       },
       inset: {},
       padding: {},

@@ -1,6 +1,14 @@
 import FooterComponent from "@/components/footer";
 import HeaderComponent from "@/components/header";
 import { Metadata } from "next/types";
+import { Bebas_Neue } from "next/font/google";
+
+const bebasNeue = Bebas_Neue({
+  subsets: ["latin"],
+  weight: "400", // Adjust weight if needed
+  display: "swap",
+});
+
 import "../globals.css";
 
 
@@ -15,7 +23,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
+    <html lang="en" className={bebasNeue.className}>
       <body data-barba="wrapper">
         <div className="content_container">
           <HeaderComponent />

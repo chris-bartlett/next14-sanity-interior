@@ -9,7 +9,7 @@ const FooterComponent = () => {
         className=" px-6 sm:px-24 overflow-hidden w-full h-full"
       >
         <div className="w-full h-full justify-center items-center flex flex-col mb-6 sm:mb-0">
-          <p className="font-bebastext-white text-[12vw] leading-none">
+          <p className="font-bebas text-white text-[12vw] leading-none">
             Let's talk{" "}
           </p>
           <ul className="flex justify-center sm:flex-row items-center sm:gap-6">
